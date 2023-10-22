@@ -34,7 +34,7 @@ void setup()
     M5.Lcd.setTextSize(2);
     M5.Lcd.setTextDatum(4);
 
-    // Wi-FiとAmbientクライアントの初期化 ここから
+    // Wi-FiとAmbientクライアントの初期化
     WiFi.begin(ssid, password);
     while (WiFi.status() != WL_CONNECTED)
     {
